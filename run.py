@@ -1,4 +1,4 @@
-from DRImodules import DRInc, DRIinterfaces
+from DRImodules import DRInc, DRIinterfaces, drirc
 from PCAPmodules._device import Device
 from drirc import drirc
 import threading

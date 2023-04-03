@@ -1,9 +1,0 @@
-<Mon Apr 03 15:00:43 2023> INFO   - [_device] Started pcap
-<Mon Apr 03 15:01:00 2023> INFO   - [_device] Stopped pcap
-<Mon Apr 03 15:01:05 2023> INFO   - [_device] Get device info param - 192.168.102.1 - success.
-<Mon Apr 03 15:01:05 2023> INFO   - [_device] Successfully downloaded pcap
-<Mon Apr 03 15:01:05 2023> INFO   - [_device] Successfully stored pcap: 15h-00m-43s-VAB0300000406.pcap in folder 2023-04-03
-<Mon Apr 03 15:01:05 2023> INFO   - [_device] Get device info param - 192.168.102.1 - success.
-<Mon Apr 03 15:01:06 2023> INFO   - [_device] Successfully stored system snapshot: 15h-01m-05s-VAB0300000406 in folder "logs"
-<Mon Apr 03 15:01:06 2023> INFO   - [_device] Logout successful
-<Mon Apr 03 15:01:06 2023> INFO   - [_device] Session closed
