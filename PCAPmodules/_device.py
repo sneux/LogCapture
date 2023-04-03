@@ -261,6 +261,10 @@ class Device:
                 self.logout()
 
                 return 
+            
+            else:
+
+                print("Starting PCAP")
 
             self.logger.info('Started pcap')
 
@@ -284,6 +288,10 @@ class Device:
                 self.logout()
 
                 return 
+            
+            else:
+
+                print("Stopping PCAP")
 
             self.logger.info('Stopped pcap')
 
@@ -364,6 +372,8 @@ class Device:
 
                 file.write(tmp_pcap)
 
+            print("Successfully saved PCAP")
+
             self.logger.info(f'Successfully stored pcap: {timestamp}-{deviceSerial}.pcap in folder {date}')
 
         except Exception as e:
@@ -400,8 +410,6 @@ class Device:
             print("Grabbing debug snapshot")
 
             response = self.session.get(url=f"https://{self.ip}:8443/api/diag/download/debugsnapshot", headers = {}, data = {}, verify = False, stream=True)
-            
-            print(response.status_code)
 
             if response.status_code != 200:
 
