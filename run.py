@@ -9,7 +9,6 @@ import sys
 import re
 import os
 
-
 # Dictionary to easily determine the channel to capture on
 def channel_9090(line):
     cds_9090_channel_dict = {
